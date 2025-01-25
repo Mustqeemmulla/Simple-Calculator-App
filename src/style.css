@@ -14,7 +14,13 @@ body{
   grid-template-columns: repeat(4,6rem);
   grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
 }
-
+.title{
+  font-size: 2rem;
+  color: #B02E0C;
+  text-align: center;
+  margin-top: 2rem;
+  text-shadow: white 2px 2px 8px;
+}
 .calculator-grid > button{
 cursor: pointer;
 font-size: 2rem;
